@@ -24,6 +24,14 @@ function userData() {
             nationality: "Japanese"
         }
     ])
+
+    return (
+        <>
+            <table class="table table-striped">
+                
+            </table>
+        </>
+    )
 }
 
 export default Userdata
