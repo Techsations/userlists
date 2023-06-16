@@ -1,10 +1,29 @@
 import React from 'react'
 import { useState } from 'react';
 
-const Userdata = () => {
-  return (
-    <div>Userdata</div>
-  )
+function userData() {
+    const [allStudents, setallStudents] = useState([
+        {
+            name: "Shola",
+            deparment: "Medicine and Sugery",
+            nationality: "Ukranian"
+        },
+        {
+            name: "Biyaya",
+            deparment: "Computer Science",
+            nationality: "South African"
+        },
+        {
+            name: "Adelolu",
+            deparment: "Data Science",
+            nationality: "Pakistani"
+        },
+        {
+            name: "Wuraola",
+            deparment: "Mining Engineering",
+            nationality: "Japanese"
+        }
+    ])
 }
 
 export default Userdata
