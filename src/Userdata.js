@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 
-function userData() {
+function UserData() {
     const [allStudents, setallStudents] = useState([
         {
             name: "Shola",
@@ -20,7 +20,7 @@ function userData() {
         },
         {
             name: "Wuraola",
-            deparment: "Mining Engineering",
+            department: "Mining Engineering",
             nationality: "Japanese"
         }
     ])
@@ -81,4 +81,4 @@ function userData() {
     )
 }
 
-export default Userdata
+export default UserData
